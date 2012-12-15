@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin-package PUBLIC "-//Liferay//DTD Plugin Package 6.1.0//EN" "http://www.liferay.com/dtd/liferay-plugin-package_6_1_0.dtd">
+
+<plugin-package>
+	<name>liferay-aui-autocomplete-ajax-example</name>
+	<module-id>liferay/liferay-portlets/liferay-aui-autocomplete-ajax-example-0.0.1-SNAPSHOT/war</module-id>
+	<types>
+		<type>portlets</type>
+	</types>
+	<tags>
+		<tag>AUI</tag>
+	</tags>
+	<short-description>Liferay AUI Auto Complete Ajax Example</short-description>
+	<long-description></long-description>
+	<change-log></change-log>
+	<page-url>http://musarra.wordpress.com</page-url>
+	<author>Antonio Musarra</author>
+	<licenses>
+		<license osi-approved="true">GNU General Public License (GPLv3)</license>
+	</licenses>
+	<liferay-versions>
+		<liferay-version>6.1.1+</liferay-version>
+	</liferay-versions>
+</plugin-package>
