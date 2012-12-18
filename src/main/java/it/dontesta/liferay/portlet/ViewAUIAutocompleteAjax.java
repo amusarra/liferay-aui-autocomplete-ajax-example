@@ -79,11 +79,7 @@ public class ViewAUIAutocompleteAjax extends MVCPortlet {
 				}
 			}
 		}
-		
-		resourceResponse.setContentType(ContentTypes.APPLICATION_JSON);
-		
-		PrintWriter writer = resourceResponse.getWriter();
-        writer.println(json.toString());
+		writeJSON(resourceRequest, resourceResponse, json);
 	}
 
 	private static Log _log = LogFactoryUtil.getLog(ViewAUIAutocompleteAjax.class);
