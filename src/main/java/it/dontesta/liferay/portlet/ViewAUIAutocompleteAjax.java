@@ -60,7 +60,7 @@ public class ViewAUIAutocompleteAjax extends MVCPortlet {
 				_log.info("Excute a " + ActionKeys.GET_LIFERAY_ROLES + " action for keyword " + keyword);
 			}
 			
-			DynamicQuery dynamicQuery = DynamicQueryFactoryUtil.forClass(Role.class).
+			DynamicQuery dynamicQuery = DynamicQueryFactoryUtil.forClass(Role.class, PortalClassLoaderUtil.getClassLoader()).
 					add(PropertyFactoryUtil.forName("name").like(searchPattern));
 			try {
 				@SuppressWarnings("unchecked")
