@@ -136,8 +136,6 @@ public class ViewAUIAutocompleteAjax extends MVCPortlet {
 						listEntry.put("sessionId", sessiondId);
 						results.put(listEntry);
 					}
-					// Logout session from SugarCRM
-					//SugarCRMServiceUtil.logout(sessiondId);
 				} else {
 					if (_log.isWarnEnabled()) {
 						_log.warn("Login failed in to SugarCRM for " + lfrUser.getScreenName());
