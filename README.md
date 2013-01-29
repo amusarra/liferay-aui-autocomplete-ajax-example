@@ -54,17 +54,17 @@ described in the post http://musarra.wordpress.com/2011/04/11/bad-content-type-o
 ---------------------
 Below are some screenshots that show the integration between Liferay and SugarCRM.
 
-![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_1.png)
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_11.png)
 
-![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_2.png)
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_21.png)
 
-![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_3.png)
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_31.png)
 
-![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_4.png)
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_41.png)
 
-![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_5.png)
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_51.png)
 
-![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_6.png)
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_61.png)
 
 5. Resources
 ---------------------
