@@ -22,7 +22,15 @@ Before you can retrieve the data from the CRM system Account, you must satisfy t
 * On Liferay there must be a user who has the same credentials on the CRM system.
 * Liferay must be configured in such a way as to be stored unencrypted password on the session.
 
-Configuration to be put in webapps/ROOT/WEB-INF/classes/portal-ext.properties
+Below is the configuration of the portlet (in portlet.properties)
+
+	sugarcrm.URL=http://localhost:8888/sugarcrm_dev_WebServices
+	sugarcrm.ViewAccountRecord=${sugarcrm.URL}/index.php?module=Accounts&action=DetailView&record={recordId}&MSID={sessionId}
+	sugarcrm.RestURL=${sugarcrm.URL}/service/v4/rest.php?method={method}&input_type={input_type}&response_type={response_type}&rest_data={rest_data}
+
+Configuration to be put in webapps/ROOT/WEB-INF/classes/portal-ext.properties for store the user's password in 
+the session.
+
 	##
 	## Session
 	##
@@ -35,3 +43,15 @@ Configuration to be put in webapps/ROOT/WEB-INF/classes/portal-ext.properties
     	# Set this to true to store the user's password in the session.
     	#
     	session.store.password=true
+
+3. Issue
+---------------------
+It may happen that the data from the CRM are not shown due to a bug of web services, ie, the content-type 
+of answer is wrong, it is not the type "application / json" but "text / html", this causes the exception 
+described in the post http://musarra.wordpress.com/2011/04/11/bad-content-type-on-sugarcrm-rest-api-interface/
+
+4. Resources
+---------------------
+At my Blog:
+* Alloy UI AutoComplete Ajax Example (http://musarra.wordpress.com/2012/12/18/alloy-ui-autocomplete-ajax-example/)
+* Alloy UI Autocomplete Portlet (http://musarra.wordpress.com/2012/12/27/alloy-ui-autocomplete-portlet/)
