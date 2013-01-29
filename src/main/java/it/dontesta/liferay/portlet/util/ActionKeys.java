@@ -9,4 +9,5 @@ package it.dontesta.liferay.portlet.util;
  */
 public class ActionKeys extends com.liferay.portal.security.permission.ActionKeys {
 	public static final String GET_LIFERAY_ROLES = "getLiferayRoles";
+	public static final String GET_SUGARCRM_ACCOUNT_LIST = "getSugarCRMAccountList";
 }
