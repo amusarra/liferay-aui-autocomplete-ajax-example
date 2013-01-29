@@ -50,8 +50,29 @@ It may happen that the data from the CRM are not shown due to a bug of web servi
 of answer is wrong, it is not the type "application / json" but "text / html", this causes the exception 
 described in the post http://musarra.wordpress.com/2011/04/11/bad-content-type-on-sugarcrm-rest-api-interface/
 
-4. Resources
+4. In Action!
+---------------------
+Below are some screenshots that show the integration between Liferay and SugarCRM.
+
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_1.png)
+
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_2.png)
+
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_3.png)
+
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_4.png)
+
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_5.png)
+
+![AUI Auto Complete Example](http://musarra.files.wordpress.com/2013/01/auiautocompletesugarcrm_6.png)
+
+5. Resources
 ---------------------
 At my Blog:
 * Alloy UI AutoComplete Ajax Example (http://musarra.wordpress.com/2012/12/18/alloy-ui-autocomplete-ajax-example/)
 * Alloy UI Autocomplete Portlet (http://musarra.wordpress.com/2012/12/27/alloy-ui-autocomplete-portlet/)
+
+6. The End
+---------------------
+With this little project update I wanted to show how simple and almost immediate integration between Liferay and SugarCRM. 
+For more information, please refer to my blog (http://musarra.wordpress.com) or write to the mail box at antonio[dot]musarra[at]gmail.com.
