@@ -120,6 +120,15 @@ autoComplete.generateRequest = function(query) {
                 var viewAccountRecordURL_SessionId = viewAccountRecordURL_Id.replace('{sessionId}', item.sessionId);
                 
                 A.one("#selectedAccountItems").append('<div id="' + item.key + '" class="dialog-link"><li><a title="<liferay-ui:message key="portlet-link-detail-account"/>" class="viewAccountRecord" target="_blank" href="' + viewAccountRecordURL_SessionId + '">' + item.name + '</a></li></div>');
+            
+            	var list = A.all(".dialog-link li a");
+		
+				list.on("click", function(event) {
+					event.preventDefault();
+					var uri = event.target.getAttribute("href");
+					crmAccountOpenDialogiFrame(uri);
+				});
+            	
             });
 autoComplete.render();
 
