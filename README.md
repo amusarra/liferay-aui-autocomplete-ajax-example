@@ -71,6 +71,7 @@ Below are some screenshots that show the integration between Liferay and SugarCR
 At my Blog:
 * Alloy UI AutoComplete Ajax Example (http://musarra.wordpress.com/2012/12/18/alloy-ui-autocomplete-ajax-example/)
 * Alloy UI Autocomplete Portlet (http://musarra.wordpress.com/2012/12/27/alloy-ui-autocomplete-portlet/)
+* Alloy UI Autocomplete: Get data from SugarCRM (http://musarra.wordpress.com/2013/03/15/alloy-ui-autocomplete-get-data-from-sugarcrm-2/)
 
 6. The End
 ---------------------
